@@ -1,6 +1,6 @@
 # CREDIT RISK ANALYSIS
 
-## Overview of load prediction risk analysis
+## Overview of loan prediction risk analysis
 
 &ensp;&ensp;The aim of this project is to use supervised machine learning to predict credit risk. The credit risk problem is an inherently unbalanced classification problem where the number of good loans easily outnumbers risky loans. Therefore, we will use different techniques to train and evaluate models with unbalanced classes.
 
