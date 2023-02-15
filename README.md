@@ -35,17 +35,26 @@
 
 ### Naive Random Oversampling :
 
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/Random_OverSampling_Bac.png" width=360/>
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/Random_Oversampling.png" width=440/>
+
  - Balanced Accuracy  : 0.6456130066757718<br>
  - Precision(High/Low): 0.01/1.00<br>
  - Recall (High/Low)  : 0.61/0.68<br>
 
 ### SMOTE Oversampling :
 
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/SMOTE_Oversampling_Bac.png" width=360/>
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/Smote_Oversampling.png" width=440/>
+
   - Balanced Accuracy : 0.6234433606890912<br>
   - Precision(High/Low): 0.01/1.00<br>
   - Recall (High/Low) : 0.61/0.64<br>
 
 ### ClusterCentroids Undersampling :
+
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/Undersampling_Bac.png" width=360/>
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/Undersampling.png" width=440/>
 
   - Balanced Accuracy : 0.5293026900499977<br>
   - Precision(High/Low): 0.01/1.00<br>
@@ -55,6 +64,9 @@
 
 ### Combination (Over and Under) Sampling:
 
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/Combination_Bac.png" width=360/>
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/Combination.png" width=440/>
+
   - Balanced Accuracy : 0.6531287896185101<br>
   - Precision(High/Low): 0.01/1.00<br>
   - Recall (High/Low) : 0.69/0.62<br>
@@ -63,11 +75,15 @@
 
 ### Balanced Random Forest Classifier
 
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/Balanced_RFC_Bac.png" width=360/>
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/Balance_RFC.png" width=440/>
+
   - Balanced Accuracy : 0.7885466545953005<br>
   - Precision(High/Low): 0.03/1.00<br>
   - Recall (High/Low) : 0.70/0.87<br>
 
 ### Feature Importance (top 5 features):
+
   - total_rec_prncp<br>
   - total_pymnt_inv<br>
   - total_pymnt<br>
@@ -75,6 +91,9 @@
   - total_rec_int<br>
 
 ### Easy Ensemble AdaBoost Classifier
+
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/EEAdaBoost_Bac.png" width=360/>
+&ensp;&ensp;<img src="https://github.com/hsurisetti/Credit_Risk_Analysis/blob/main/screenshots/EEAdaBoost.png" width=440/>
 
   - Balanced Accuracy  : 0.9316600714093861<br>
   - Precision(High/Low): 0.09/1.00<br>
