@@ -20,7 +20,7 @@
 
   2. Undersampling : We will undersample the majority class using the ClusterCentroid algorithm
 
-  3. Combining Oversampling and Undersampling : We will use a combinatorial approach of over and under sampling using hte SMOTEENN algorithm.
+  3. Combining Oversampling and Undersampling : We will use a combinatorial approach of over and under sampling using the SMOTEENN algorithm.
 
   We will then compare the performance of the two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier, which reduce bias and predict credit risk.
 
