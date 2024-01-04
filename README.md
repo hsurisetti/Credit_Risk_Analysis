@@ -18,9 +18,9 @@
 
   1. Oversampling : We will oversample the minority class using the RandomOverSampler and SMOTE algorithms
 
-  2. Undersampling : WE will undersample the majority class using the ClusterCentroid algorithm
+  2. Undersampling : We will undersample the majority class using the ClusterCentroid algorithm
 
-  3. Combining Oversampling and Undersampling : WE will use a combinatorial approach of over and under sampling using hte SMOTEENN algorithm.
+  3. Combining Oversampling and Undersampling : We will use a combinatorial approach of over and under sampling using hte SMOTEENN algorithm.
 
   We will then compare the performance of the two new machine learning models BalancedRandomForestClassifier and EasyEnsembleClassifier, which reduce bias and predict credit risk.
 
@@ -111,7 +111,7 @@
     
  &ensp;The Balanced Random Forest Classifier had a balanced accuracy score of 0.79, which is also high, but its performance was not as good as Easy Ensemble classifier.
 
-&ensp;&ensp;Therefore, depending on the specific needs and priorities of the user, either the EasyEnsembleClassifier or the BalancedRandomForestClassifier could be recommended for predicting credit risk. The resampling models had much lower balanaced accuracy scores, which makes them less reliable for redicitng credit risk.
+&ensp;&ensp;Therefore, depending on the specific needs and priorities of the user, either the EasyEnsembleClassifier or the BalancedRandomForestClassifier could be recommended for predicting credit risk. The resampling models had much lower balanaced accuracy scores, which makes them less reliable for predicitng credit risk.
 
 &ensp;However, it should be noted that both models still had relatively low precision scores for high risk, indicating that they may not be the most reliable in accurately identifying high risk borrowers. As such, further analysis and improvements may be necessary to develop a more robust and accurate model for predicting credit risk
 
